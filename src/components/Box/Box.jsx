@@ -8,9 +8,10 @@ const Box = (props) => {
         backgroundColor: props.boxColor || "black",
       }}
     >
-      <p></p>
+      <p>{props.text}</p>
     </div>
   );
 };
 
 export default Box;
+
